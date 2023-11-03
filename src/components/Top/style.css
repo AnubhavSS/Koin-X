@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+
+.heading {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.selectB{
+    width: 228px;
+    height: 52px;
+    border-radius: 8px;
+    padding: 17px 11px 17px 12px;
+    background-color: #EFF2F5;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    
+}
+
+.dropLabel{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #0F1629;
+    line-height: 24px;
+}
+
+.dropContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+}
+
+.topDrop{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+hr.new1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-top: 1px solid gray;
+    width: 48vw;
+  }
+
+  @media screen and (max-width:768px) {
+    .dropContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        align-items: center;
+    }
+
+    .selectB{
+        width: 164px;
+        height: 52px;
+        border-radius: 8px;
+        padding: 17px 11px 17px 12px;
+        background-color: #EFF2F5;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: 'Inter', sans-serif;
+        border: none;
+
+    }
+    .heading {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 42px;
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+    }
+  }
