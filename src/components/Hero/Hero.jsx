@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Top from "../Top/Top";
 import "./style.css";
 import { Data } from "../../data";
@@ -22,6 +22,7 @@ const Hero = () => {
     setincomeRange(selectedValue);
   };
 
+  // Setting the enterd value
   const handleFieldChange = (event) => {
     if (event.target.id === "sale") {
       setinfo({ ...info, sale: event.target.value });
@@ -34,6 +35,7 @@ const Hero = () => {
 
   console.log(info);
 
+  // calculating 
   useEffect(() => {
     const PURCHASE = parseInt(info.purchase);
     const EXPENSE = parseInt(info.expense);
@@ -51,7 +53,7 @@ const Hero = () => {
       tax: Tax,
       discount: Discount,
     });
-  }, [info,incomeRange,termSelect]);
+  }, [info,incomeRange,termSelect]);// eslint-disable-next-line no-use-before-define
 
   console.log(info, cal,Data[incomeRange-1]);
   return (

@@ -5,4 +5,5 @@ body{
   padding: 0;
   box-sizing: border-box;
   background-color: #EFF2F5;
+  overflow-x: hidden;
 }

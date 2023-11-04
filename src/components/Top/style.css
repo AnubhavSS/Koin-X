@@ -47,7 +47,7 @@ hr.new1 {
     margin-top: 30px;
     margin-bottom: 30px;
     border-top: 1px solid gray;
-    width: 48vw;
+    width: 53vw;
   }
 
   @media screen and (max-width:768px) {

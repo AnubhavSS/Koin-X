@@ -1,8 +1,8 @@
 .container{
-    width: 60vw;
+    width: 70vw;
     height: 879px;
     background-color: #FFF;
-    position: absolute;
+    /* position: absolute; */
     margin: 24px 0 0 30px;
     border-radius: 15px;
 }
@@ -72,7 +72,7 @@
 .result{
     height: auto;
     width: 336px;
-  
+  margin-bottom: 10px;
     border-radius: 8px;
     padding: 5px;    
 }
@@ -98,7 +98,7 @@
         width: 96vw;
         height: auto;
         background-color: #FFF;
-        position: absolute;
+        /* position: absolute; */
      margin: 5px ;
         border-radius: 15px;
         border: 1px solid #DEE1E6;

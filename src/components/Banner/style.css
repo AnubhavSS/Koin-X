@@ -1,0 +1,117 @@
+.bannerContain{
+    width: 426px;
+    height: 576px;
+    border-radius: 8px;
+    padding: 55px 16px 55px 16px;
+    background-color: #0052FE;
+    margin: 24px 0 0 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.textContainer{
+    height: 182px;
+    width: 326px;
+    margin: 12px auto;
+}
+
+.bannerHead{
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    line-height: 40px;
+    color: #FFF;
+    text-align: center;
+}
+
+.bannerInfo{
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    line-height: 24px;
+    color: #F2F2F2;
+    text-align: center;
+}
+
+.bannerImg{
+    height: 166px;
+    width: 178px;
+    margin: auto;
+}
+
+
+.bannerBtn{
+    height: 48px;
+    width: 237px;
+    background-color: #FFF;
+    border-radius: 8px;
+    padding: 8px 24px 8px 24px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    color: #0F1629;
+    margin: auto;
+    cursor: pointer;
+}
+
+
+.mobileBannerContain{
+    width: 86vw;
+    height: auto;
+    border-radius: 8px;
+    padding: 55px 16px 55px 16px;
+    background-color: #0052FE;
+    margin: 14px;
+   display: none;
+}
+
+.mobilebannerImage{
+    height: 139px;
+    width: 149px;
+  margin-left: 80px;
+    
+}
+
+.mobilebannerHead{
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    line-height: 40px;
+    color: #FFF;
+    text-align: center;
+}
+
+.mobileBannerBtn{
+  
+        height: 48px;
+        width: 257px;
+        background-color: #FFF;
+        border-radius: 8px;
+        padding: 8px 24px 8px 24px;
+        border: none;
+        font-weight: 600;
+        font-size: 16px;
+        font-family: 'Inter', sans-serif;
+        color: #0F1629;
+        margin-left: 40px;
+        margin-top: 10px;
+    
+}
+
+.mobiletextContaine{
+    height: 172px;
+    width: auto;
+    
+}
+
+@media screen and (max-width:768px) {
+    .bannerContain{
+        display: none;
+    }
+    .mobileBannerContain{
+        display: block;
+       }
+}
